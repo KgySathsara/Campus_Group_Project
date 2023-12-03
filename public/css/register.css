@@ -1,0 +1,53 @@
+body {
+    font-family: Calibri, sans-serif;
+    //background-color: #72b7f4;
+    }
+    h2 {
+    color: white;
+    text-align: center; /* Center align the title */
+    }
+    form {
+    background-color: #bfddf7;
+    max-width: 800px;
+    //max-height: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    label {
+    display: block;
+    margin-bottom: 2px;
+    color: #333333;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    background-color: #ffffff; /* Set background color to white */
+    }
+    select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    }
+    input[type="submit"] {
+    background-color: #1a73e8;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 40px;
+    cursor: pointer;
+    }
+    input[type="submit"]:hover {
+    background-color: #0059b3;
+    }
